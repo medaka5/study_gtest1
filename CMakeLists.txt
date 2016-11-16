@@ -5,7 +5,7 @@ include_directories(
     ${GTEST_ROOT}/googletest/include
     )
 
-add_executable(test1 test/test1.cpp)
+add_executable(test1 test/test_add.cpp)
 target_link_libraries(test1
     Add
     pthread 
